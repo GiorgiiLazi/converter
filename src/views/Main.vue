@@ -65,7 +65,7 @@ export default {
 
             euroRub.value = await fetchedData.rates.RUB
             euroUsd.value =  await fetchedData.rates.USD 
-            // console.log(euroRub.value[0].rates.RUB)
+            // console.log(euroRub.value[0].rates.RUBs)
         }
         catch(error){
             console.log(error)
